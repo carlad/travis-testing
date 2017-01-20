@@ -1,8 +1,8 @@
 #language: ruby
 
-#os: 
-#  - osx
-#  - linux
+os: 
+  - osx
+  - linux
   
 language: swift
 

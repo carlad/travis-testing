@@ -1,5 +1,20 @@
+#language: ruby
 
-language: ruby
+#os: 
+#  - osx
+#  - linux
+  
+language: swift
+
+#language: objective-c
+
+#language: orange
+
+install:
+  - true
 
 script:
-  - sleep 3
+  - uname -a
+
+notifications:
+  email: false

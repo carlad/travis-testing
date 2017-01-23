@@ -1,10 +1,5 @@
-#language: ruby
-
-os: 
-  - osx
-  - linux
-  
-language: swift
+language: ruby
+cache: bundler
 
 #language: objective-c
 

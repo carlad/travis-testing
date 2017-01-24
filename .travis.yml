@@ -1,20 +1,13 @@
-#language: ruby
+language: ruby
+cache: bundler
 
-os: 
-  - osx
-  - linux
-  
-language: swift
-
-#language: objective-c
-
-#language: orange
+sudo: false
 
 install:
   - true
 
 script:
-  - uname -a
+  - true
 
 notifications:
   email: false

@@ -4,7 +4,6 @@ cache: bundler
 #language: objective-c
 
 #language: orange
-
-install:
-  - true
+script:
+  true
 

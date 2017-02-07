@@ -9,8 +9,7 @@ install:
 script:
   - true
   
-env:
-  secure: "hBatM+0xuGTYvwYctS2z/aCQLyQPLQ71rJOU7+d939m3DZywS2gt2SUhxEQfGp+DL0v+Mgp7d1vmyrV/sbhqDsSlbTq3C+Lm2hbwDVQr4wUV/fzC3e+67ZqrnVlJ2ReCiratSat/Dle3q2xxsnxMHa851J+N4VUWOn/Gfp5tjbs="
+secure: "hBatM+0xuGTYvwYctS2z/aCQLyQPLQ71rJOU7+d939m3DZywS2gt2SUhxEQfGp+DL0v+Mgp7d1vmyrV/sbhqDsSlbTq3C+Lm2hbwDVQr4wUV/fzC3e+67ZqrnVlJ2ReCiratSat/Dle3q2xxsnxMHa851J+N4VUWOn/Gfp5tjbs="
 
 notifications:
   email: false

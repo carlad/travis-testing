@@ -6,7 +6,9 @@ install:
 script:
 - true
 notifications:
-  email: false
+  email: carla@travis-ci.org
+  on_sucess: always
+
 env:
   global:
   - secure: fn/gWCxTwf4q/Y1OiH0RK/oIR776YwciX+9IrPg6u7jUtuK6fHvg04uDKNfUqk7nSqQQjXTLXTeZ59Xvv90chLHzskVG0HuE++Olcsfjn9/Cecn19TpeJGyFaG1TkqOyV0vrebDOAVxjQC2G+nDxf9pU3SqG6+Gg+qcFOyQ8dzx46OopChJxdO+j0bF2H73UytmYHK+UVsZFCxGM7WzUdtRRcMzpPTo7xE/rfIcIN8KMOKX9mepO2+a+0wOyxljqDIXLx8jRrkxUyR2qKuUqcfzFcWXo4jTIvC0CW5EYC5FC8JJu1yFijWKTxrGn8X+uqeQKwGTuBFK6jKkuOXACwjfOmTtvj+ve0R3RDqpwVoFBA+fBw3GTbY/a7VeykY7cSRe8yOAJjSLGC5ITCkYavD8YIYd8sqncO9O+5OxKBqLMDeLZAeTn18PnyiBdpLcDwIZP02SQLeulVyAuwQkaHiGsCU2x0WCDDigwM2I5MOontZbRhkHJgsPCgEjar/V9QGh62R954M5kiQLNx5Zw28Wb9wVy6hVL+nL7dUpLp2lQII/je4tOJonGMtTdRgv0YN4428cbYpLxqull90CFVBHeq5QGPZNpbilFm6zeDCIqG9xl5YEhQQ4eCV5/gIbHrDSMN+6Z2AKwSW5gdeA51pBpAksgEe0G7HhAwwyGcsA=

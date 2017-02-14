@@ -6,8 +6,10 @@ install:
 script:
 - true
 notifications:
-  email: carla@travis-ci.org
-  on_sucess: always
+  email: 
+    recipients:
+      - carla@travis-ci.org
+  on_cancel: always
 
 env:
   global:

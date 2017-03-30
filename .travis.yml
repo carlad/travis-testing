@@ -7,7 +7,7 @@ install:
   - true
 
 script:
-  - true
+  - sleep 5
 
 notifications:
   email: false

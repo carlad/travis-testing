@@ -1,9 +1,10 @@
 language: ruby
-cache: bundler
-
-#language: objective-c
-
-#language: orange
-script:
-  true
+matrix:
+  include:
+    - os: linux
+      dist: trusty
+      sudo: required
+    - os: linux
+      dist: precise
+      
 

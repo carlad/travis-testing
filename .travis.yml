@@ -6,5 +6,7 @@ matrix:
       sudo: required
     - os: linux
       dist: precise
+script:
+- true
       
 
